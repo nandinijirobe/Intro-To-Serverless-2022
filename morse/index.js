@@ -10,8 +10,6 @@ module.exports = async function (context, req) {
     } else {
         code = morse.textToMorse(english);
     }
-
-    // const code = morse.textToMorse(english);
    
     context.res = {
         body: code
